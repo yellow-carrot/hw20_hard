@@ -24,8 +24,7 @@ class TestMovieService:
 
     def test_create(self):
         movie_d = {
-            'id': 1,
-            'title': 'Movie_1',
+            'title': 'Movie_4',
             'description': 'Description',
             'trailer': 'trailer',
             'year': 2000,
@@ -41,7 +40,7 @@ class TestMovieService:
     def test_update(self):
         movie_d = {
             'id': 1,
-            'title': 'Movie_1',
+            'title': 'New_title',
             'description': 'Description',
             'trailer': 'trailer',
             'year': 2000,
