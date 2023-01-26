@@ -35,7 +35,7 @@ def director_dao():
 
 
 @pytest.fixture()
-def director_dao():
+def movie_dao():
     movie_dao = MovieDAO(db.session)  # None
 
     movie_1 = Movie(id=1, title='Movie_1', description='Description', trailer='trailer', year=2000, rating=10.0,
